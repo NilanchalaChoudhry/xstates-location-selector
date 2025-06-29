@@ -2,26 +2,20 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
- 
 }
 
 h1 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
-.dropdown-group {
+.dropdown-row {
   display: flex;
   gap: 10px;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
-.dropdown {
+select {
+  padding: 8px;
   flex: 1;
-  min-width: 200px;
-  padding: 10px;
-  font-size: 16px;
 }
 
 select:disabled {
@@ -32,11 +26,9 @@ select:disabled {
 p {
   margin-top: 20px;
   font-weight: bold;
-  text-align: center;
 }
 
 .error {
   color: red;
-  text-align: center;
   margin-bottom: 10px;
 }
